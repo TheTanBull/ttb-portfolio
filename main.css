@@ -1,0 +1,80 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    /* margin: 0;
+    padding: 0; */
+    background-color: #FFF;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='4' height='4' viewBox='0 0 4 4'%3E%3Cpath fill='%23623ba0' fill-opacity='0.4' d='M1 3h1v1H1V3zm2-2h1v1H3V1z'%3E%3C/path%3E%3C/svg%3E");
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+}
+
+a {
+    color: #ccaaff;
+}
+
+a h2 {
+    font-weight: 400;
+}
+
+a:hover {
+    color: #623ba0;
+    text-decoration: none;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+}
+
+.about {
+    height: 100vh;
+    padding-top: 25px;
+}
+
+.bg-dark {
+    /* background-color: #462973!important; */
+}
+
+.nav-link a{
+    transition: all 0.4s ease-in-out;
+}
+.navbar-dark {
+    background-color: #623ba0;
+}
+
+.profile-pic {
+    box-shadow: 0px 4px 6px 2px darkgrey;
+    border-radius: 50%;
+    margin: 25px 0;
+}
+
+.project {
+    /* height: 100vh; */
+    margin-top: 50px;
+    margin-bottom: 25px;
+}
+
+.project-image {
+    margin-bottom: 25px;
+}
+
+.row-grey {
+    background-color: rgba(36, 36, 36, .9);
+    color: #fff;
+    -webkit-clip-path: polygon(0 0%, 100% 4%, 100% 96%, 0% 100%);
+	clip-path: polygon(0 0%, 100% 4%, 100% 96%, 0% 100%);
+	padding: 65px 10px;
+}
+
+.row-white {
+    color: #111;
+    background-color: transparent;
+}
+
+.ttbrand {
+    font-family: 'Russo One', sans-serif;
+    font-size: 2.5rem;
+}
