@@ -38,6 +38,12 @@ h1, h2, h3, h4, h5 {
     /* background-color: #462973!important; */
 }
 
+.frameworks {
+    padding: 0;
+    text-align: center;
+}
+
+
 .nav-link a{
     transition: all 0.4s ease-in-out;
 }
