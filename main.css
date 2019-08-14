@@ -43,12 +43,20 @@ h1, h2, h3, h4, h5 {
     text-align: center;
 }
 
+.grey {
+    background-color: rgba(36, 36, 36, .9);
+    color: #fff;
+}
 
 .nav-link a{
     transition: all 0.4s ease-in-out;
 }
 .navbar-dark {
     background-color: #623ba0;
+}
+
+.poke {
+    text-align: right;
 }
 
 .profile-pic {
@@ -80,7 +88,49 @@ h1, h2, h3, h4, h5 {
     background-color: transparent;
 }
 
+.social-media-img {
+    margin: 0 10px;
+}
+
+.social-media-ski {
+    position: absolute;
+    top: 77vh;
+    left: -100px;
+    -webkit-animation: roll 8s ease-in-out 1, rotate 2s linear 4;
+    -moz-animation: roll 8s ease-in-out 1, rotate 2s linear 4;
+    animation: roll 8s ease-in-out 1, rotate 2s linear 4;
+}
+
 .ttbrand {
     font-family: 'Russo One', sans-serif;
     font-size: 2.5rem;
 }
+
+@keyframes roll {
+    0% {
+        left: -100px;
+        top: 77vh;
+    }
+    60% {
+    }
+    100% {
+      left: 100%;
+      top: 80vh;
+    }
+  }
+
+@keyframes rotate {
+    0% {
+
+    }
+    50% {
+        /* transform: rotate(180deg); */
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+/* @-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } } */
